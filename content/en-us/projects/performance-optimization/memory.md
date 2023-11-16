@@ -51,7 +51,7 @@ There are no hard and fast values for what memory numbers are good or bad. It de
 
 The highest impact lever available to creators to improve client memory usage is to enable [Instance Streaming](../../workspace/streaming.md).
 
-Instance Streaming selectively loads out parts of the data model that are not required, which can lead to considerably reduced low time and increase the client's ability to prevent crashes when it comes under memory pressure.
+Instance Streaming selectively loads out parts of the data model that are not required, which can lead to considerably reduced load time and increase the client's ability to prevent crashes when it comes under memory pressure.
 
 If you are encountering memory issues and have Instance Streaming turned _off_,
 consider updating your experience to support it, particularly if your 3D world is
